@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'gilroy-regular-400';
+    src: url('fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'gilroy-medium-500';
+    src: url('fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'gilroy-semibold-600';
+    src: url('fonts/Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'gilroy-bold';
+    src: url('fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-size: normal;
+}

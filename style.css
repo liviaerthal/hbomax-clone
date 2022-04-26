@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 98.7vw;
+    height: 100vh;
+    background: #030328  url('images/background.jpg') top center repeat;
+    background-size: cover;
+    font-family: 'gilroy-regular-400', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    background-color: #0000004D;
+    padding: 1px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-ul{
+    margin: 8px 0;
+}
+
+.nav-li{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 0.8em;
+    font-family: 'gilroy-bold', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.nav-li:hover{
+    cursor: pointer;
+}
+
+#stream-now{
+    background-color: #B535F6;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: .3s ease;
+}
+
+#stream-now:hover{
+    background-color: transparent;
+    outline: 3px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.logo{
+    max-width: 12vw;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    color: white;
+}
+
+main h2{
+    font-weight: 600;
+    font-size: 1.7em;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+main p{
+    max-width: 550px;
+    font-size: 1.2em;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+}
+
+button{
+    border: none;
+    color: #030328;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 18px 25px;
+    border-radius: 50px;
+    letter-spacing: 4px;
+    margin-top: 70px;
+    transition: .4s ease;
+}
+
+button:hover{
+    background-color: transparent;
+    outline: 3px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    top: 95%;
+    font-size: 0.8em;
+    padding: 50px;
+    background-color: #030328;
+    color: #9080F2;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-top ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-top li{
+    font-weight: bold;
+    letter-spacing: 3px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 5px 20px 30px;
+}
+
+.footer-middle ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-middle li{
+    display: inline-block;
+    text-transform: capitalize;
+    margin: 0px 30px 30px 0px;
+}
+
+.footer-bottom p{
+   text-align: center;
+}
+
+footer li:hover{
+    transition: .3s ease;
+    color: white;
+    cursor: pointer;
+}
+

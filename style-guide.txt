@@ -1,0 +1,26 @@
+Cores:
+Botao Stream Now: #B535F6
+Footer background: #030328
+Footer font-color: #9080F2
+navBar background: #0000004D
+
+Conteúdo:
+
+nav bar: logo, Account Stream Now
+
+main: 
+Acessar HBO Max TV
+Para completar o acesso á HBO Max TV, escolha o botão abaixo e insira o código disponibilizado pela sua TV.
+Começe a assistir HBO Max hoje.
+
+INICIE AGORA
+
+footer:
+Em breve | Filme em destaque | Séries | Ajuda
+
+Privacidade Termos de uso 
+Comunicados de impresa
+Contatos de impresa
+Gerenciar preferências
+
+© 2022 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. HBO Max é usado sob licença.
