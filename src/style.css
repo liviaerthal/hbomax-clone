@@ -9,7 +9,7 @@
 body{
     width: 98.7vw;
     height: 100vh;
-    background: #030328  url('images/background.jpg') top center repeat;
+    background: #030328  url('../images/background.jpg') top center repeat;
     background-size: cover;
     font-family: 'gilroy-regular-400', sans-serif;
 }
@@ -60,28 +60,29 @@ header{
 }
 
 .logo{
-    max-width: 12vw;
+    max-width: 8.4vw;
 }
 
 main{
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
-    padding-left: 130px;
+    padding-left: 20%;
     color: white;
 }
 
 main h2{
+    max-width: 600px;
     font-weight: 600;
-    font-size: 1.7em;
+    font-size: 50px;
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
 
 main p{
-    max-width: 550px;
-    font-size: 1.2em;
-    line-height: 30px;
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 32px;
     letter-spacing: 0.8px;
 }
 
@@ -94,7 +95,7 @@ button{
     padding: 18px 25px;
     border-radius: 50px;
     letter-spacing: 4px;
-    margin-top: 70px;
+    margin-top: 60px;
     transition: .4s ease;
 }
 
@@ -108,9 +109,10 @@ button:hover{
 footer{
     position: absolute;
     width: 100%;
-    top: 95%;
-    font-size: 0.8em;
-    padding: 50px;
+    top: 90%;
+    font-size: 12px;
+    line-height: 19px;
+    padding: 30px;
     background-color: #030328;
     color: #9080F2;
 }
@@ -130,7 +132,7 @@ li{
     letter-spacing: 3px;
     display: inline-block;
     text-transform: uppercase;
-    margin: 5px 20px 30px;
+    padding: 0 15px;
 }
 
 .footer-middle ul{
@@ -141,7 +143,7 @@ li{
 .footer-middle li{
     display: inline-block;
     text-transform: capitalize;
-    margin: 0px 30px 30px 0px;
+    margin: 0px 15px 15px 15px;
 }
 
 .footer-bottom p{
@@ -152,5 +154,67 @@ footer li:hover{
     transition: .3s ease;
     color: white;
     cursor: pointer;
+}
+
+/* Responsividade */
+
+@media only screen and (max-width: 600px){
+    
+    .nav-li{
+        font-size: 10px;
+    }
+
+    main{
+        min-height: 90vh;
+        padding-left: 0px;
+    }
+
+    main h2{
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    main p{
+        font-size: 16px;
+    }
+
+    footer{
+        font-size: 12px;
+        padding: 20px;
+    }
+
+
+    footer li, p{
+        font-size: 8px;
+        padding: 0px;
+    }
+
+    .footer-top li{
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 992px){
+
+    .logo{
+        max-width: 18vw;
+    }
+
+    main{
+        min-height: 100vh;
+        padding-left: 10%;
+    }
+
+    main h2{
+        font-size: 35px;
+        margin-bottom: 8px;
+    }
+
+    button{
+        margin-top: 40px;
+        font-size: 1em;
+        padding: 15px 23px;
+    }
 }
 
