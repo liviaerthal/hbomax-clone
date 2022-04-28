@@ -7,6 +7,7 @@
 }
 
 body{
+    overflow-x: hidden;
     width: 98.7vw;
     height: 100vh;
     background: #030328  url('../images/background.jpg') top center repeat;
