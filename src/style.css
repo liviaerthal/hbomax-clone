@@ -55,13 +55,14 @@ header{
 
 #stream-now:hover{
     background-color: transparent;
-    outline: 3px solid white;
+    outline: 2px solid white;
     color: white;
     cursor: pointer;
 }
 
 .logo{
-    max-width: 8.4vw;
+    max-width: 160px;
+    max-height: 27px;
 }
 
 main{
@@ -97,12 +98,12 @@ button{
     border-radius: 50px;
     letter-spacing: 4px;
     margin-top: 60px;
-    transition: .4s ease;
+    transition: .3s;
 }
 
 button:hover{
     background-color: transparent;
-    outline: 3px solid white;
+    border: 1px solid white;
     color: white;
     cursor: pointer;
 }
