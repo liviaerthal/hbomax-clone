@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root{
+    font-size: 62.5%;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +11,7 @@
 }
 
 body{
+    overflow: auto;
     overflow-x: hidden;
     width: 98.7vw;
     height: 100vh;
@@ -19,7 +24,7 @@ header{
     position: fixed;
     width: 100vw;
     background-color: #0000004D;
-    padding: 1px 16px;
+    padding: 0.1rem 1.6rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,19 +32,20 @@ header{
 }
 
 .nav-ul{
-    margin: 8px 0;
+    margin: 0.8rem 0;
 }
 
 .nav-li{
     display: inline-block;
     list-style: none;
     color: white;
-    margin: 0 10px;
-    font-size: 0.8em;
+    margin: 0 0.1rem;
+    font-size: 1.1rem;
     font-family: 'gilroy-bold', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2.5px;
+    margin-left: 2rem;
 }
 
 .nav-li:hover{
@@ -48,9 +54,10 @@ header{
 
 #stream-now{
     background-color: #B535F6;
-    padding: 10px 25px;
-    border-radius: 50px;
+    padding: 1rem 2.5rem;
+    border-radius: 5rem;
     transition: .3s ease;
+    margin-right: 2rem;
 }
 
 #stream-now:hover{
@@ -61,30 +68,30 @@ header{
 }
 
 .logo{
-    max-width: 160px;
-    max-height: 27px;
+    max-width: 16rem;
+    max-height: 2.7rem;
 }
 
 main{
     min-height: 90vh;
     display: flex;
     align-items: center;
-    padding-left: 20%;
+    padding-left: 10%;
     color: white;
 }
 
 main h2{
-    max-width: 600px;
+    max-width: 60rem;
     font-weight: 600;
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    margin-bottom: 1rem;
 }
 
 main p{
-    max-width: 600px;
-    font-size: 20px;
-    line-height: 32px;
+    max-width: 60rem;
+    font-size: 2rem;
+    line-height: 3.2rem;
     letter-spacing: 0.8px;
 }
 
@@ -93,11 +100,11 @@ button{
     color: #030328;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.2em;
-    padding: 18px 25px;
-    border-radius: 50px;
-    letter-spacing: 4px;
-    margin-top: 60px;
+    font-size: 1.6em;
+    padding: 1.8rem 2.5rem;
+    border-radius: 5rem;
+    letter-spacing: .4rem;
+    margin-top: 6rem;
     transition: .3s;
 }
 
@@ -112,16 +119,16 @@ footer{
     position: absolute;
     width: 100%;
     top: 90%;
-    font-size: 12px;
-    line-height: 19px;
-    padding: 30px;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    padding: 3rem;
     background-color: #030328;
     color: #9080F2;
 }
 
 li{
     list-style: none;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .footer-top ul{
@@ -131,10 +138,10 @@ li{
 
 .footer-top li{
     font-weight: bold;
-    letter-spacing: 3px;
+    letter-spacing: .3rem;
     display: inline-block;
     text-transform: uppercase;
-    padding: 0 15px;
+    padding: 0 1.5rem;
 }
 
 .footer-middle ul{
@@ -145,7 +152,7 @@ li{
 .footer-middle li{
     display: inline-block;
     text-transform: capitalize;
-    margin: 0px 15px 15px 15px;
+    margin: 0px 1.5rem 1.5rem 1.5rem;
 }
 
 .footer-bottom p{
@@ -156,67 +163,5 @@ footer li:hover{
     transition: .3s ease;
     color: white;
     cursor: pointer;
-}
-
-/* Responsividade */
-
-@media only screen and (max-width: 600px){
-    
-    .nav-li{
-        font-size: 10px;
-    }
-
-    main{
-        min-height: 90vh;
-        padding-left: 0px;
-    }
-
-    main h2{
-        font-size: 20px;
-        margin-bottom: 8px;
-    }
-
-    main p{
-        font-size: 16px;
-    }
-
-    footer{
-        font-size: 12px;
-        padding: 20px;
-    }
-
-
-    footer li, p{
-        font-size: 8px;
-        padding: 0px;
-    }
-
-    .footer-top li{
-        font-size: 10px;
-    }
-
-}
-
-@media only screen and (max-width: 992px){
-
-    .logo{
-        max-width: 18vw;
-    }
-
-    main{
-        min-height: 100vh;
-        padding-left: 10%;
-    }
-
-    main h2{
-        font-size: 35px;
-        margin-bottom: 8px;
-    }
-
-    button{
-        margin-top: 40px;
-        font-size: 1em;
-        padding: 15px 23px;
-    }
 }
 
